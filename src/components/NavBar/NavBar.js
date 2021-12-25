@@ -12,9 +12,10 @@ const NavBar = () => {
           {/* <Navbar.Brand href="#home">PROMAN</Navbar.Brand> */}
           {/* TODO: Use # navigation */}
           <Nav className="me-auto" >
-            <Nav.Link href="/home" style={{color:"dimgray", fontWeight:"bold"}}>Home</Nav.Link>
-            <Nav.Link href="/about" style={{color:"dimgray", fontWeight: "bold"}}>About</Nav.Link>
-            <Nav.Link href="/portfolio" style={{color:"dimgray", fontWeight: "bold"}}>Portfolio</Nav.Link>
+            <Nav.Link href="/home" style={{color:"white", fontWeight:"bold"}}>Home</Nav.Link>
+            <Nav.Link href="/about" style={{color:"white", fontWeight: "bold"}}>About</Nav.Link>
+            <Nav.Link href="/services" style={{color:"white", fontWeight: "bold"}}>Services</Nav.Link>
+            <Nav.Link href="/portfolio" style={{color:"white", fontWeight: "bold"}}>Portfolio</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

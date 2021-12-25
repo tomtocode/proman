@@ -4,7 +4,7 @@ import apartment from '../../images/new_apartment_construction.jpg';
 import { Container, Row, Col } from 'reactstrap';
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
 import logo from '../../images/logo.png';
-import 'pure-react-carousel/dist/react-carousel.es.css';
+// import 'pure-react-carousel/dist/react-carousel.es.css';
 import Carousel from '../SupportComponents/Carousel';
 
 
@@ -19,7 +19,7 @@ const Home = props => {
           <h4 className="pe-h1" style={{ textAlign: "center", color: "dimgrey"}}>
             New Jersey's Top Choice For Commercial, Residential and Industrial Electric Services
           </h4>
-          <p className="pe-paragraph">
+          <p>
             Fully Licensed and Insured because protecting our customers is the top priority.
             Our founder Roman has been in the electical trade for 30+ years and continues to manage
             each project. Our portfolio consists of apartment developments, retail stores,

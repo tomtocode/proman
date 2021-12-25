@@ -30,6 +30,16 @@
   text-align: center;
   background-color: white;
   min-height: 50%;
+  color: dimgray;
+}
+
+.pe-header-secondary{
+  padding-top: 1%;
+  font-size: large;
+  text-align: left;
+  background-color: white;
+  color: #606060;
+  font-weight: bold;
 }
 
 .pe-main-text {
@@ -42,7 +52,9 @@
 .pe-h1 {
   font-size: x-large;
   text-align: center;
-  color: orangered
+  color: #282828;
+  padding-top: 25px;
+  padding-bottom: 10px;
 
 }
 
@@ -65,8 +77,8 @@
   color: #61dafb;
 }
 
-.pe-paragraph{
-  color: grey;
-  font-size: large;
+.pe-paragraph, li, ul, p{
+  color: dimgray;
+  font-size: medium;
   font-family: sans-serif;
 }
