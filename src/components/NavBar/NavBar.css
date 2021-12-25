@@ -1,0 +1,25 @@
+.NavBar {
+  background-color: dimgray;
+  font-size: 20px;
+  color: white;
+  height: 70px;
+}
+
+.pe-nav-button{
+  border: none;
+  background-color: white;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pe-hr{
+  color: white;
+  border-color: white;
+}
+
