@@ -7,9 +7,6 @@ import industrial from '../../images/industrial.jpg';
 import apartment from '../../images/residential_apartment_long_branch.jpg';
 import electric_vehicle from '../../images/electric_vehicle_charger.jpg';
 
-
-
-
 const Services = () => {
   return (
     <>
@@ -22,7 +19,7 @@ const Services = () => {
             <div style={{ textAlign: "center" }}>
               <img src={commercial_gas_station} width="100%"></img>
             </div>
-            <h2 className="pe-header-secondary"> Commercial</h2>
+            <h2 className="pe-header-secondary pe-color"  style={{ textAlign: "center" }}> Commercial</h2>
             <p>
               Quality commercial services with proper licensing and insurance. These items below are just a sampling of the work we perform.
             </p>
@@ -88,7 +85,7 @@ const Services = () => {
             <div style={{ textAlign: "center" }}>
               <img src={apartment} width="100%"></img>
             </div>
-            <h2 className="pe-header-secondary"> Residential</h2>
+            <h2 className="pe-header-secondary pe-color" style={{ textAlign: "center" }}> Residential</h2>
             <p>
               From regular service calls, to new constructions, and complete rewiring, we are proud to help our local homeowners and developers. We earn every job by respecting your time and property.
             </p>
@@ -141,7 +138,7 @@ const Services = () => {
             <div style={{ textAlign: "center" }}>
               <img src={industrial} width="100%"></img>
             </div>
-            <h2 className="pe-header-secondary"> Industrial</h2>
+            <h2 className="pe-header-secondary pe-color"  style={{ textAlign: "center" }}> Industrial</h2>
             <p>
               From new installations to diagnosing power issues, we can perform your industral electric work.
             </p>
@@ -211,7 +208,7 @@ const Services = () => {
             <div style={{ textAlign: "center" }}>
               <img src={electric_vehicle} width="100%"></img>
             </div>
-            <h2 className="pe-header-secondary">Electric Vehicle Chargers</h2>
+            <h2 className="pe-header-secondary pe-color" style={{ textAlign: "center" }}>Electric Vehicle Chargers</h2>
             <p>
               We are experienced in electric vehicle charger installations. A dedicated charging station for your home or business can help you save time and money compared to a commercial charging station.
             </p>

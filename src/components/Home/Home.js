@@ -18,6 +18,7 @@ const Home = props => {
           <h4 className="pe-h1" style={{ textAlign: "center", color: "dimgrey"}}>
             New Jersey's Best Choice For Commercial, Residential and Industrial Electric Services
           </h4>
+          <p className="pe-paragraph pe-color" style={{textAlign:"center", fontWeight: "bold"}}>Ask Us About Our EV Charger Installation Services!</p>
           <p>
             Fully Licensed and Insured because protecting our customers is the top priority.
             Our founder Roman has been in the electical trade for 30+ years and continues to manage

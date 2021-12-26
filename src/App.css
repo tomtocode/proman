@@ -1,3 +1,5 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
 .pe-app-logo {
   /* height: 10vmin; */
   /* pointer-events: none; */
@@ -8,7 +10,7 @@
   width: 5%;
 }
 .pe-color{
-  color: orangered;
+  color: #ef5611 !important;
 }
 
 .pe-link{
