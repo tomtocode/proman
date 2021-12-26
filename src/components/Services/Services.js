@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 import { Container, Row, Col } from 'reactstrap';
 import commercial_gas_station from '../../images/commercial_gas_station.jpg';
 import industrial from '../../images/industrial.jpg';
@@ -8,12 +9,13 @@ import electric_vehicle from '../../images/electric_vehicle_charger.jpg';
 
 
 
+
 const Services = () => {
   return (
     <>
       <Header></Header>
       <Container>
-        <h3 className="pe-header-secondary">PROMAN Electric Services</h3>
+        <h3 className="pe-header-secondary">Services</h3>
         {/* Start Commercial */}
         <Row>
           <Col>
@@ -239,6 +241,7 @@ const Services = () => {
           {/* End Electric Charging */}
         </Row>
       </Container>
+      <Footer></Footer>
     </>
   );
 };

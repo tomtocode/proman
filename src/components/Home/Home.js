@@ -1,9 +1,8 @@
 import React from 'react';
-import Header from '../Header/Header'
-import apartment from '../../images/new_apartment_construction.jpg';
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 import { Container, Row, Col } from 'reactstrap';
-import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
-import logo from '../../images/logo.png';
+// import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
 // import 'pure-react-carousel/dist/react-carousel.es.css';
 import Carousel from '../SupportComponents/Carousel';
 
@@ -17,14 +16,14 @@ const Home = props => {
           {/* TODO Add picture of NJ map */}
           {/* TODO List of Towns we serve for SEO. */}
           <h4 className="pe-h1" style={{ textAlign: "center", color: "dimgrey"}}>
-            New Jersey's Top Choice For Commercial, Residential and Industrial Electric Services
+            New Jersey's Best Choice For Commercial, Residential and Industrial Electric Services
           </h4>
           <p>
             Fully Licensed and Insured because protecting our customers is the top priority.
             Our founder Roman has been in the electical trade for 30+ years and continues to manage
             each project. Our portfolio consists of apartment developments, retail stores,
             industrial
-            facilities in manufacturing and warehousing, as well as local homeowners in need of reliable work at a reasonable price.
+            facilities in manufacturing and warehousing, EV charging stations, as well as local homeowners in need of reliable work at a reasonable price.
           </p>
         </Row>
         <Carousel />
@@ -48,6 +47,8 @@ const Home = props => {
 
         </CarouselProvider> */}
       </Container>
+      <Footer></Footer>
+
 
         {/* <p className="pe-paragraph">
         The market is full of many electrical contractors but choosing the best service provider 

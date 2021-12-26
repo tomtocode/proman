@@ -1,7 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import apartment from '../../images/new_apartment_construction.jpg';
-import logo from '../../images/logo.png';
+import apartment from '../../images/apartment_construction_2.jpg';
+import electric_vehicle from '../../images/electric_vehicle_charger.jpg';
+import high_voltage_panel from '../../images/high_voltage_panel.jpg';
+import conduit from '../../images/conduit.jpg';
+
+
 
 class Carousel extends React.Component {
   constructor(props) {
@@ -11,7 +15,9 @@ class Carousel extends React.Component {
       currentImage: 0,
       images: [ 
           apartment,
-          logo
+          electric_vehicle,
+          high_voltage_panel,
+          conduit
       ]
     };
   }
@@ -40,7 +46,7 @@ class Carousel extends React.Component {
           src={this.state.images[this.state.currentImage]}
           alt="PROMAN Electric Images"
           width ="70%"
-        //   height="500px"
+          style={{minWidth: "200px"}}
         />
       </div>
     );

@@ -1,5 +1,7 @@
 import React from 'react';
 import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
+
 
 const Portfolio = () => {
   return (
@@ -9,6 +11,7 @@ const Portfolio = () => {
       <h3>Portfolio View</h3>
       <p> This is the about page</p>
     </div>
+    <Footer></Footer>
     </>
   );
 };
