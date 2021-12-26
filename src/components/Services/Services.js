@@ -213,7 +213,7 @@ const Services = () => {
             </div>
             <h2 className="pe-header-secondary">Electric Vehicle Chargers</h2>
             <p>
-              We are experienced in electric vehicle charger installations. A dedicated charging station at your home or business can help you save time and money compared to a commercial charging station.
+              We are experienced in electric vehicle charger installations. A dedicated charging station for your home or business can help you save time and money compared to a commercial charging station.
             </p>
             <Row>
               <Col>
