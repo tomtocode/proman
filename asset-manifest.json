@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e0c8cc2d.chunk.css",
+    "main.js": "/static/js/main.0459948d.chunk.js",
+    "main.js.map": "/static/js/main.0459948d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.379fa07e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.379fa07e.js.map",
+    "static/css/2.ffd995d4.chunk.css": "/static/css/2.ffd995d4.chunk.css",
+    "static/js/2.0edfd367.chunk.js": "/static/js/2.0edfd367.chunk.js",
+    "static/js/2.0edfd367.chunk.js.map": "/static/js/2.0edfd367.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ffd995d4.chunk.css.map": "/static/css/2.ffd995d4.chunk.css.map",
+    "static/css/main.e0c8cc2d.chunk.css.map": "/static/css/main.e0c8cc2d.chunk.css.map",
+    "static/js/2.0edfd367.chunk.js.LICENSE.txt": "/static/js/2.0edfd367.chunk.js.LICENSE.txt",
+    "static/media/apartment_construction_2.ac9f1aab.jpg": "/static/media/apartment_construction_2.ac9f1aab.jpg",
+    "static/media/commercial_gas_station.41a34288.jpg": "/static/media/commercial_gas_station.41a34288.jpg",
+    "static/media/conduit.8ef2308c.jpg": "/static/media/conduit.8ef2308c.jpg",
+    "static/media/electric_vehicle_charger.8a2bfd97.jpg": "/static/media/electric_vehicle_charger.8a2bfd97.jpg",
+    "static/media/high_voltage_panel.55523440.jpg": "/static/media/high_voltage_panel.55523440.jpg",
+    "static/media/industrial.10ef3dc5.jpg": "/static/media/industrial.10ef3dc5.jpg",
+    "static/media/logo.59db7c55.png": "/static/media/logo.59db7c55.png",
+    "static/media/residential_apartment_long_branch.6421699e.jpg": "/static/media/residential_apartment_long_branch.6421699e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.379fa07e.js",
+    "static/css/2.ffd995d4.chunk.css",
+    "static/js/2.0edfd367.chunk.js",
+    "static/css/main.e0c8cc2d.chunk.css",
+    "static/js/main.0459948d.chunk.js"
+  ]
+}
