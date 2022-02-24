@@ -1,5 +1,7 @@
 import React from 'react';
 import { Nav, Navbar, Container } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
+
 
 
 import './NavBar.css';
@@ -12,10 +14,10 @@ const NavBar = () => {
           {/* <Navbar.Brand href="#home">PROMAN</Navbar.Brand> */}
           {/* TODO: Use # navigation */}
           <Nav className="me-auto" >
-            <Nav.Link href="/home" style={{color:"white", fontWeight:"bold"}}>Home</Nav.Link>
-            <Nav.Link href="/about" style={{color:"white", fontWeight: "bold"}}>About Us</Nav.Link>
-            <Nav.Link href="/services" style={{color:"white", fontWeight: "bold"}}>Services</Nav.Link>
-            <Nav.Link href="/portfolio" style={{color:"white", fontWeight: "bold"}}>Portfolio</Nav.Link>
+            <NavLink to="/proman" style={{color:"white", fontWeight:"bold"}}>Home</NavLink>
+            <NavLink to="/about" style={{color:"white", fontWeight: "bold"}}>About Us</NavLink>
+            <NavLink to="/services" style={{color:"white", fontWeight: "bold"}}>Services</NavLink>
+            <NavLink to="/portfolio" style={{color:"white", fontWeight: "bold"}}>Portfolio</NavLink>
           </Nav>
         </Container>
       </Navbar>
