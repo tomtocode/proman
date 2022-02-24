@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/proman/static/css/main.e0c8cc2d.chunk.css",
-    "main.js": "/proman/static/js/main.66d782eb.chunk.js",
-    "main.js.map": "/proman/static/js/main.66d782eb.chunk.js.map",
-    "runtime-main.js": "/proman/static/js/runtime-main.96df170e.js",
-    "runtime-main.js.map": "/proman/static/js/runtime-main.96df170e.js.map",
-    "static/css/2.ffd995d4.chunk.css": "/proman/static/css/2.ffd995d4.chunk.css",
-    "static/js/2.0edfd367.chunk.js": "/proman/static/js/2.0edfd367.chunk.js",
-    "static/js/2.0edfd367.chunk.js.map": "/proman/static/js/2.0edfd367.chunk.js.map",
+    "main.css": "/proman/static/css/main.fcde4fcd.chunk.css",
+    "main.js": "/proman/static/js/main.5b5817f4.chunk.js",
+    "main.js.map": "/proman/static/js/main.5b5817f4.chunk.js.map",
+    "runtime-main.js": "/proman/static/js/runtime-main.149dceb2.js",
+    "runtime-main.js.map": "/proman/static/js/runtime-main.149dceb2.js.map",
+    "static/css/2.bd1821c2.chunk.css": "/proman/static/css/2.bd1821c2.chunk.css",
+    "static/js/2.fd3f3b78.chunk.js": "/proman/static/js/2.fd3f3b78.chunk.js",
+    "static/js/2.fd3f3b78.chunk.js.map": "/proman/static/js/2.fd3f3b78.chunk.js.map",
+    "static/js/3.305a0e64.chunk.js": "/proman/static/js/3.305a0e64.chunk.js",
+    "static/js/3.305a0e64.chunk.js.map": "/proman/static/js/3.305a0e64.chunk.js.map",
     "index.html": "/proman/index.html",
-    "static/css/2.ffd995d4.chunk.css.map": "/proman/static/css/2.ffd995d4.chunk.css.map",
-    "static/css/main.e0c8cc2d.chunk.css.map": "/proman/static/css/main.e0c8cc2d.chunk.css.map",
-    "static/js/2.0edfd367.chunk.js.LICENSE.txt": "/proman/static/js/2.0edfd367.chunk.js.LICENSE.txt",
+    "static/css/2.bd1821c2.chunk.css.map": "/proman/static/css/2.bd1821c2.chunk.css.map",
+    "static/css/main.fcde4fcd.chunk.css.map": "/proman/static/css/main.fcde4fcd.chunk.css.map",
+    "static/js/2.fd3f3b78.chunk.js.LICENSE.txt": "/proman/static/js/2.fd3f3b78.chunk.js.LICENSE.txt",
     "static/media/apartment_construction_2.ac9f1aab.jpg": "/proman/static/media/apartment_construction_2.ac9f1aab.jpg",
     "static/media/commercial_gas_station.41a34288.jpg": "/proman/static/media/commercial_gas_station.41a34288.jpg",
     "static/media/conduit.8ef2308c.jpg": "/proman/static/media/conduit.8ef2308c.jpg",
@@ -22,10 +24,10 @@
     "static/media/residential_apartment_long_branch.6421699e.jpg": "/proman/static/media/residential_apartment_long_branch.6421699e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.96df170e.js",
-    "static/css/2.ffd995d4.chunk.css",
-    "static/js/2.0edfd367.chunk.js",
-    "static/css/main.e0c8cc2d.chunk.css",
-    "static/js/main.66d782eb.chunk.js"
+    "static/js/runtime-main.149dceb2.js",
+    "static/css/2.bd1821c2.chunk.css",
+    "static/js/2.fd3f3b78.chunk.js",
+    "static/css/main.fcde4fcd.chunk.css",
+    "static/js/main.5b5817f4.chunk.js"
   ]
 }
