@@ -28,13 +28,13 @@ const Portfolio = () => {
     ];
   return (
     <>
-    <Header></Header>
+    {/* <Header></Header> */}
     <Container>
-      <h3 className="pe-header-secondary">Portfolio</h3>
+      {/* <h3 className="pe-header-secondary">Portfolio</h3> */}
       <ImageGallery items={images} />
       <img ></img>
     </Container>
-    <Footer></Footer>
+    {/* <Footer></Footer> */}
     </>
   );
 };

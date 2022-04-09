@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import { Container, Row, Col } from 'reactstrap';
+import {Portfolio} from '../Portfolio';
 // import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
 // import 'pure-react-carousel/dist/react-carousel.es.css';
 import Carousel from '../SupportComponents/Carousel';
@@ -27,7 +28,7 @@ const Home = props => {
             facilities in manufacturing and warehousing, EV charging stations, as well as local homeowners in need of reliable work at a reasonable price.
           </p>
         </Row>
-        <Carousel />
+        <Portfolio />
         <div style={{paddingBottom:"100px"}}>
 
         </div>

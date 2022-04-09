@@ -15,9 +15,9 @@ const NavBar = () => {
           {/* TODO: Use # navigation */}
           <Nav className="me-auto" >
             <NavLink to="/proman" style={{color:"white", fontWeight:"bold"}}>Home</NavLink>
-            <NavLink to="/about" style={{color:"white", fontWeight: "bold"}}>About Us</NavLink>
-            <NavLink to="/services" style={{color:"white", fontWeight: "bold"}}>Services</NavLink>
-            <NavLink to="/portfolio" style={{color:"white", fontWeight: "bold"}}>Portfolio</NavLink>
+            <NavLink to="/services" style={{color:"white", fontWeight: "bold", marginLeft:"20px"}}>Services</NavLink>
+            <NavLink to="/about" style={{color:"white", fontWeight: "bold", marginLeft:"20px"}}>About Us</NavLink>
+            {/* <NavLink to="/portfolio" style={{color:"white", fontWeight: "bold"}}>Portfolio</NavLink> */}
           </Nav>
         </Container>
       </Navbar>
