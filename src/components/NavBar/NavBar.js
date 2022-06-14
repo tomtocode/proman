@@ -14,9 +14,9 @@ const NavBar = () => {
           {/* <Navbar.Brand href="#home">PROMAN</Navbar.Brand> */}
           {/* TODO: Use # navigation */}
           <Nav className="me-auto" >
-            <NavLink to="/proman" style={{color:"white", fontWeight:"bold"}}>Home</NavLink>
-            <NavLink to="/services" style={{color:"white", fontWeight: "bold", marginLeft:"20px"}}>Services</NavLink>
-            <NavLink to="/about" style={{color:"white", fontWeight: "bold", marginLeft:"20px"}}>About Us</NavLink>
+            <NavLink exact to="/proman" activeClassName="main-nav-active" style={{color:"white", fontWeight:"bold"}}>Home</NavLink>
+            <NavLink exact to="/services" activeClassName="main-nav-active" style={{color:"white", fontWeight: "bold", marginLeft:"20px"}}>Services</NavLink>
+            <NavLink exact to="/about" activeClassName="main-nav-active" style={{color:"white", fontWeight: "bold", marginLeft:"20px"}}>About Us</NavLink>
             {/* <NavLink to="/portfolio" style={{color:"white", fontWeight: "bold"}}>Portfolio</NavLink> */}
           </Nav>
         </Container>

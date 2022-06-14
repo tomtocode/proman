@@ -25,7 +25,7 @@ const Home = props => {
             Our founder Roman has been in the electical trade for 30+ years and continues to manage
             each project. Our portfolio consists of apartment developments, retail stores,
             industrial
-            facilities in manufacturing and warehousing, EV charging stations, as well as local homeowners in need of reliable work at a reasonable price.
+            facilities in manufacturing and warehousing, EV charging stations, as well as local homeowners in need of reliable work at a fair price.
           </p>
         </Row>
         <Portfolio />

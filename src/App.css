@@ -1,5 +1,9 @@
 @import "~react-image-gallery/styles/css/image-gallery.css";
 
+.main-nav-active {
+  color: #ef5611 !important; 
+}
+
 .pe-app-logo {
   /* height: 10vmin; */
   /* pointer-events: none; */
