@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.9cf6b96b.chunk.css",
-    "main.js": "/static/js/main.27a48c9e.chunk.js",
-    "main.js.map": "/static/js/main.27a48c9e.chunk.js.map",
+    "main.js": "/static/js/main.5746dbbb.chunk.js",
+    "main.js.map": "/static/js/main.5746dbbb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cab1b3b3.js",
     "runtime-main.js.map": "/static/js/runtime-main.cab1b3b3.js.map",
     "static/css/2.bd1821c2.chunk.css": "/static/css/2.bd1821c2.chunk.css",
@@ -14,7 +14,8 @@
     "static/css/2.bd1821c2.chunk.css.map": "/static/css/2.bd1821c2.chunk.css.map",
     "static/css/main.9cf6b96b.chunk.css.map": "/static/css/main.9cf6b96b.chunk.css.map",
     "static/js/2.e1578390.chunk.js.LICENSE.txt": "/static/js/2.e1578390.chunk.js.LICENSE.txt",
-    "static/media/apartment_construction_2.ac9f1aab.jpg": "/static/media/apartment_construction_2.ac9f1aab.jpg",
+    "static/media/apartment_construction_1.ac9f1aab.jpg": "/static/media/apartment_construction_1.ac9f1aab.jpg",
+    "static/media/apartment_construction_2.fb6275a4.jpg": "/static/media/apartment_construction_2.fb6275a4.jpg",
     "static/media/commercial_gas_station.41a34288.jpg": "/static/media/commercial_gas_station.41a34288.jpg",
     "static/media/conduit.8ef2308c.jpg": "/static/media/conduit.8ef2308c.jpg",
     "static/media/electric_vehicle_charger.8a2bfd97.jpg": "/static/media/electric_vehicle_charger.8a2bfd97.jpg",
@@ -28,6 +29,6 @@
     "static/css/2.bd1821c2.chunk.css",
     "static/js/2.e1578390.chunk.js",
     "static/css/main.9cf6b96b.chunk.css",
-    "static/js/main.27a48c9e.chunk.js"
+    "static/js/main.5746dbbb.chunk.js"
   ]
 }
