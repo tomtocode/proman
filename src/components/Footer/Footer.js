@@ -1,6 +1,4 @@
-import logo from '../../images/logo.png';
 import { Container, Row, Col } from 'reactstrap';
-import NavBar from '../NavBar/NavBar';
 
 
 const Footer = () => {
