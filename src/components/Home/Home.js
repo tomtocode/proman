@@ -19,7 +19,8 @@ const Home = props => {
           <h4 className="pe-h1" style={{ textAlign: "center", color: "dimgrey" }}>
             New Jersey's Best Choice For Commercial, Residential and Industrial Electric Services
           </h4>
-          <p className="pe-paragraph pe-color" style={{ textAlign: "center", fontWeight: "bold" }}>Ask Us About Our EV Charger Installation Services!</p>
+          <p className="pe-paragraph" style={{ textAlign: "center", fontWeight: "bold", color: "green"}}>Ask Us About Our EV Charger Installation Services!</p> 
+          <p className="pe-paragraph" style={{ textAlign: "center", fontWeight: "bold", color: "green"}}> Please Give Us A Call To Help You With Any Of Your Electrical Needs. We Are Always Happy To Help.</p>
           <div style={{ display: "flex", justifyContent: "center", marginBottom: "15px" }}>
             <a href="https://www.bbb.org/us/nj/morganville/profile/electrician/proman-electric-llc-0221-90234357/#sealclick" target="_blank" rel="nofollow"><img src="https://seal-newjersey.bbb.org/seals/blue-seal-293-61-bbb-90234357.png" style={{border: 0}} alt="Proman Electric LLC BBB Business Review" /></a>
           </div>
