@@ -25,7 +25,7 @@ const Home = props => {
           </div>
           {/* <p className="pe-paragraph" style={{fontWeight: "bold", marginBottom: "0px"}}> Please Give Us A Call To Help You With Any Of Your Electrical Needs. We Are Always Happy To Help.</p> */}
           <p>
-            Please give us call to help you with any of your electrical needs. We are always happy to help.
+            Please give us call to help you with any of your electrical needs. We are happy to answer your questions.
             Fully Licensed and Insured because protecting our customers is the top priority.
             Our founder Roman has been in the electical trade for 30+ years and continues to manage
             each project. Our portfolio consists of local homeowners in need of reliable work at a fair price,
