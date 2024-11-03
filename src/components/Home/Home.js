@@ -20,16 +20,18 @@ const Home = props => {
             New Jersey's Best Choice For Commercial, Residential and Industrial Electric Services
           </h4>
           <p className="pe-paragraph" style={{ textAlign: "center", fontWeight: "bold", color: "green"}}>Ask Us About Our EV Charger Installation Services!</p> 
-          <p className="pe-paragraph" style={{ textAlign: "center", fontWeight: "bold", color: "green"}}> Please Give Us A Call To Help You With Any Of Your Electrical Needs. We Are Always Happy To Help.</p>
           <div style={{ display: "flex", justifyContent: "center", marginBottom: "15px" }}>
             <a href="https://www.bbb.org/us/nj/morganville/profile/electrician/proman-electric-llc-0221-90234357/#sealclick" target="_blank" rel="nofollow"><img src="https://seal-newjersey.bbb.org/seals/blue-seal-293-61-bbb-90234357.png" style={{border: 0}} alt="Proman Electric LLC BBB Business Review" /></a>
           </div>
+          {/* <p className="pe-paragraph" style={{fontWeight: "bold", marginBottom: "0px"}}> Please Give Us A Call To Help You With Any Of Your Electrical Needs. We Are Always Happy To Help.</p> */}
           <p>
+            Please give us call to help you with any of your electrical needs. We are always happy to help.
             Fully Licensed and Insured because protecting our customers is the top priority.
             Our founder Roman has been in the electical trade for 30+ years and continues to manage
-            each project. Our portfolio consists of apartment developments, retail stores,
+            each project. Our portfolio consists of local homeowners in need of reliable work at a fair price,
+            apartment developments, retail stores,
             industrial
-            facilities in manufacturing and warehousing, EV charging stations, as well as local homeowners in need of reliable work at a fair price.
+            facilities in manufacturing and warehousing, EV charging stations, and much more.
           </p>
         </Row>
         <Portfolio />

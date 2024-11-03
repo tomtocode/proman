@@ -108,7 +108,7 @@ const Services = () => {
                     Basement Remodels
                   </li>
                   <li>
-                    Pools & SPA
+                    Pools & Spas
                   </li>
                 </ul>
               </Col>
