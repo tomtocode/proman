@@ -17,7 +17,7 @@ const Home = props => {
           {/* TODO Add picture of NJ map */}
           {/* TODO List of Towns we serve for SEO. */}
           <h4 className="pe-h1" style={{ textAlign: "center", color: "dimgrey" }}>
-            New Jersey's Best Choice For Residential, Commercial, and Industrial Electric Services
+            New Jersey's Top Choice For Residential, Commercial, and Industrial Electric Services
           </h4>
           <p className="pe-paragraph" style={{ textAlign: "center", fontWeight: "bold", color: "green"}}>Ask Us About Our EV Charger Installation Services!</p> 
           <div style={{ display: "flex", justifyContent: "center", marginBottom: "15px" }}>
