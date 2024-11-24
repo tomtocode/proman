@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9d5caf7e.css",
-    "main.js": "/static/js/main.3fc734ea.js",
+    "main.js": "/static/js/main.23a47c38.js",
     "static/js/787.d1e19f95.chunk.js": "/static/js/787.d1e19f95.chunk.js",
     "static/media/electric_vehicle_charger.jpg": "/static/media/electric_vehicle_charger.8a2bfd97b41a7b9f18d4.jpg",
     "static/media/conduit.jpg": "/static/media/conduit.8ef2308c031ee8bf417b.jpg",
@@ -14,11 +14,11 @@
     "static/media/logo.png": "/static/media/logo.59db7c557892ba08f16e.png",
     "index.html": "/index.html",
     "main.9d5caf7e.css.map": "/static/css/main.9d5caf7e.css.map",
-    "main.3fc734ea.js.map": "/static/js/main.3fc734ea.js.map",
+    "main.23a47c38.js.map": "/static/js/main.23a47c38.js.map",
     "787.d1e19f95.chunk.js.map": "/static/js/787.d1e19f95.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9d5caf7e.css",
-    "static/js/main.3fc734ea.js"
+    "static/js/main.23a47c38.js"
   ]
 }
