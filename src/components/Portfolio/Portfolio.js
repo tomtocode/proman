@@ -51,7 +51,7 @@ const Portfolio = () => {
     {/* <Header></Header> */}
     <Container>
       {/* <h3 className="pe-header-secondary">Portfolio</h3> */}
-      <ImageGallery items={images} />
+      <ImageGallery items={images} autoPlay={true}/>
       <img ></img>
     </Container>
     {/* <Footer></Footer> */}

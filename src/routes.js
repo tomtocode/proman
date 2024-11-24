@@ -21,7 +21,7 @@ export const Routes = () => {
         <Route path="/services" component={Services} />
         {/* <Route path="/portfolio" component={Portfolio} /> */}
         <Route path="/contact-us" component={Contact} />
-        <Route component={NotFound} />
+        <Route component={Home} />
       </Switch>
     </div>
   );
