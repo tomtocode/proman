@@ -1,7 +1,4 @@
 import React from 'react';
-import Header from '../Header/Header';
-import Footer from '../Footer/Footer';
-import { Container} from 'reactstrap';
 import ImageGallery from 'react-image-gallery';
 import apartment from '../../images/apartment_construction_2.jpg';
 import electric_vehicle from '../../images/electric_vehicle_charger.jpg';
@@ -18,7 +15,7 @@ import truss from '../../images/truss.jpeg';
 
 
 
-const Portfolio = () => {
+const Portfolio = ({ compact = false }) => {
 
     const images = [
       {
@@ -67,15 +64,36 @@ const Portfolio = () => {
       }
     ];
   return (
-    <>
-    {/* <Header></Header> */}
-    <Container>
-      {/* <h3 className="pe-header-secondary">Portfolio</h3> */}
-      <ImageGallery items={images} autoPlay={true}/>
-      <img ></img>
-    </Container>
-    {/* <Footer></Footer> */}
-    </>
+    <div style={{ maxWidth: compact ? '780px' : '100%', margin: '0 auto' }}>
+      <ImageGallery
+        items={images}
+        autoPlay={true}
+        slideInterval={5000}
+        showPlayButton={false}
+        showFullscreenButton={false}
+        showBullets={false}
+        showNav={false}
+        thumbnailPosition="bottom"
+        renderItem={(item) => (
+          <div style={{ width: '100%', height: compact ? '280px' : '520px', overflow: 'hidden', borderRadius: '12px' }}>
+            <img
+              src={item.original}
+              alt="Proman Electric project"
+              style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+            />
+          </div>
+        )}
+        renderThumbInner={(item) => (
+          <div style={{ width: '100%', height: compact ? '70px' : '90px', overflow: 'hidden', borderRadius: '8px' }}>
+            <img
+              src={item.thumbnail}
+              alt=""
+              style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+            />
+          </div>
+        )}
+      />
+    </div>
   );
 };
 

@@ -12,28 +12,40 @@ const Home = props => {
   return (
     <>
       <Header />
-      <Container>
-        <Row>
+      <Container style={{ paddingTop: "8px", paddingBottom: "24px" }}>
+        <Row style={{ marginBottom: "12px" }}>
+          <Col xs="12">
+            <div style={{
+              background: "linear-gradient(135deg, #fff7f1 0%, #ffffff 100%)",
+              border: "1px solid #f2e3d7",
+              borderRadius: "16px",
+              padding: "16px 16px 8px",
+              boxShadow: "0 8px 24px rgba(0, 0, 0, 0.05)",
+              marginBottom: "8px"
+            }}>
+              <div style={{ maxWidth: "760px", margin: "0 auto" }}>
+                <h4 className="pe-h1" style={{ textAlign: "center", color: "#2f2f2f", marginBottom: "14px", lineHeight: 1.3, fontSize: "1.8rem" }}>
+                  Reliable Electrical Solutions for Homes, Businesses, and Industrial Projects
+                </h4>
+                <p className="pe-paragraph" style={{ textAlign: "center", fontWeight: "600", color: "#ef5611", marginBottom: "16px" }}>
+                  Ask Us About Our EV Charger Installation Services!
+                </p>
+                <p style={{ textAlign: "center", lineHeight: 1.8, margin: "0 auto 20px auto", color: "#555" }}>
+                  From quick repairs to large-scale commercial and industrial projects, Proman Electric delivers dependable service backed by 30+ years of hands-on expertise. Fully licensed and insured, with founder Roman personally overseeing every job. We serve homeowners, apartment developments, retail, manufacturing, warehousing, EV charging installations, and more.
+                </p>
+                <div style={{ display: "flex", justifyContent: "center", gap: "12px", flexWrap: "wrap" }}>
+                  <a href="tel:732-851-4822" style={{ backgroundColor: "#ef5611", color: "white", padding: "10px 18px", borderRadius: "999px", textDecoration: "none", fontWeight: "600" }}>Call Now</a>
+                  <a href="mailto:promanelectric@gmail.com" style={{ backgroundColor: "white", color: "#ef5611", border: "1px solid #ef5611", padding: "10px 18px", borderRadius: "999px", textDecoration: "none", fontWeight: "600" }}>Email Us</a>
+                </div>
+              </div>
+              <div style={{ marginTop: "8px" }}>
+                <Portfolio compact />
+              </div>
+            </div>
+          </Col>
           {/* TODO Add picture of NJ map */}
           {/* TODO List of Towns we serve for SEO. */}
-          <h4 className="pe-h1" style={{ textAlign: "center", color: "dimgrey" }}>
-            New Jersey's Top Choice For Residential, Commercial, and Industrial Electric Services
-          </h4>
-          <p className="pe-paragraph" style={{ textAlign: "center", fontWeight: "bold", color: "green"}}>Ask Us About Our EV Charger Installation Services!</p> 
-          <div style={{ display: "flex", justifyContent: "center", marginBottom: "15px" }}>
-            <a href="https://www.bbb.org/us/nj/morganville/profile/electrician/proman-electric-llc-0221-90234357/#sealclick" target="_blank" rel="nofollow"><img src="https://seal-newjersey.bbb.org/seals/blue-seal-293-61-bbb-90234357.png" style={{border: 0}} alt="Proman Electric LLC BBB Business Review" /></a>
-          </div>
-          {/* <p className="pe-paragraph" style={{fontWeight: "bold", marginBottom: "0px"}}> Please Give Us A Call To Help You With Any Of Your Electrical Needs. We Are Always Happy To Help.</p> */}
-          <p>
-            Please give us a call to help with any of your electrical needs. We are happy to answer your questions.
-            Fully Licensed and Insured because protecting our customers is the top priority.
-            Our founder Roman has been in the electical trade for 30+ years and continues to manage
-            each project. Our portfolio consists of local homeowners in need of reliable work at a fair price,
-            apartment developments, retail stores,
-            industrial facilities in manufacturing and warehousing, EV charging stations, and much more.
-          </p>
         </Row>
-        <Portfolio />
         <div style={{ paddingBottom: "100px" }}>
 
         </div>
