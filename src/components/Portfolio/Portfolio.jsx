@@ -9,6 +9,7 @@ import high_voltage_panel from '../../images/high_voltage_panel.jpg';
 import apartment_construction from '../../images/apartment_construction.jpg';
 import commercial_gas_station from '../../images/commercial_gas_station.jpg';
 import industrial from '../../images/industrial.jpg';
+import fireplace from '../../images/fireplace.jpeg';
 // import conduit from '../../images/conduit.jpg';
 
 
@@ -25,10 +26,10 @@ const Portfolio = () => {
         original: electric_vehicle,
         thumbnail: electric_vehicle,
       },
-      // {
-      //   original: conduit,
-      //   thumbnail: conduit,
-      // },
+      {
+        original: fireplace,
+        thumbnail: fireplace,
+      },
       {
         original: high_voltage_panel,
         thumbnail: high_voltage_panel,

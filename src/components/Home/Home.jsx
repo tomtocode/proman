@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'reactstrap';
 import { Portfolio } from '../Portfolio';
 // import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
 // import 'pure-react-carousel/dist/react-carousel.es.css';
-import Carousel from '../SupportComponents/Carousel';
+// import Carousel from '../SupportComponents/Carousel';
 
 
 const Home = props => {
