@@ -51,13 +51,15 @@ const About = () => {
           </div>
 
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.6151961251267!2d-74.24747458460548!3d40.37305597937007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3cd6b09ce7d13%3A0x912d869fefae3394!2s402+Hwy+79%2C+Morganville%2C+NJ+07751!5e0!3m2!1sen!2s!4v1491751510175"
-            title="Proman Electric location"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.615412997024!2d-74.2478680235122!3d40.37305117144664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3cd6b09ce7d13%3A0x2ee3f10d59b1b061!2sProman%20Electric%20LLC!5e0!3m2!1sen!2sus!4v1781140506275!5m2!1sen!2sus"
+            title="Proman Electric LLC"
             width="80%"
             height="300px"
             scrolling="no"
             style={{ verticalAlign: "top", border: "0", textAlign: "Center", marginBottom: "50px" }}
-            allowFullScreen="">
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade">
           </iframe>
         </div>
       </Container>
