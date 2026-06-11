@@ -37,21 +37,40 @@
   width: 100%;
 }
 
+.navbar .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 @media (max-width: 991.98px) {
-  .navbar-collapse {
-    justify-content: flex-end;
+  .navbar-collapse-custom {
+    justify-content: flex-end !important;
     padding-top: 0.5rem;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+    text-align: right;
+    width: 100%;
+    display: flex;
   }
 
-  .navbar-nav {
+  .nav-custom {
     align-items: flex-end;
     width: auto;
     margin-left: auto;
+    margin-right: 0;
+    padding-right: 0;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
   }
 
-  .navbar-nav a {
+  .nav-custom a {
     margin-left: 0 !important;
     padding: 0.25rem 0;
+    display: block;
+    text-align: right;
   }
 }
 
