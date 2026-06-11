@@ -30,9 +30,18 @@ const Home = props => {
                 <p className="pe-paragraph" style={{ textAlign: "center", fontWeight: "600", color: "#ef5611", marginBottom: "16px" }}>
                   Ask Us About Our EV Charger Installation Services!
                 </p>
-                <p style={{ textAlign: "center", lineHeight: 1.8, margin: "0 auto 20px auto", color: "#555" }}>
+                <p style={{ textAlign: "center", lineHeight: 1.8, margin: "0 auto 14px auto", color: "#555" }}>
                   From quick repairs to large-scale commercial and industrial projects, Proman Electric delivers dependable service backed by 30+ years of hands-on expertise. Fully licensed and insured, with founder Roman personally overseeing every job. We serve homeowners, apartment developments, retail, manufacturing, warehousing, EV charging installations, and more.
                 </p>
+                <div style={{ display: "flex", justifyContent: "center", alignItems: "center", flexWrap: "wrap", gap: "8px", color: "#666", fontWeight: "600", fontSize: "0.92rem", marginBottom: "18px" }}>
+                  <span>Established 2010</span>
+                  <span style={{ color: "#c7c7c7" }}>•</span>
+                  <span>NJ License #16105</span>
+                  <span style={{ color: "#c7c7c7" }}>•</span>
+                  <a style={{ color: "#ef5611", whiteSpace: "nowrap", textDecoration: "underline" }} href="tel:732-851-4822">(732) 851-4822</a>
+                  <span style={{ color: "#c7c7c7" }}>•</span>
+                  <a style={{ color: "#ef5611", textDecoration: "underline" }} href="mailto:promanelectric@gmail.com">promanelectric@gmail.com</a>
+                </div>
                 <div style={{ display: "flex", justifyContent: "center", gap: "12px", flexWrap: "wrap" }}>
                   <a href="tel:732-851-4822" style={{ backgroundColor: "#ef5611", color: "white", padding: "10px 18px", borderRadius: "999px", textDecoration: "none", fontWeight: "600" }}>Call Now</a>
                   <a href="mailto:promanelectric@gmail.com" style={{ backgroundColor: "white", color: "#ef5611", border: "1px solid #ef5611", padding: "10px 18px", borderRadius: "999px", textDecoration: "none", fontWeight: "600" }}>Email Us</a>

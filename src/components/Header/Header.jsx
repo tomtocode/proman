@@ -6,28 +6,21 @@ import NavBar from '../NavBar/NavBar';
 const Header = () => {
     return (
         <>
-            <div className="pe-paragraph pe-header" style={{ backgroundColor: "#282828" }}>
+            <div className="pe-paragraph pe-header" style={{ backgroundColor: "#282828", padding: "20px 0 10px" }}>
                 <Container>
-                    <Row className="text-center">
-                        <Col>
-                            <img src={logo} alt="logo" style={{ width: "100%", maxWidth: "200px", height: "auto" }} />
+                    <Row className="align-items-center text-center">
+                        <Col md="6" className="mb-3 mb-md-0">
+                            <img src={logo} alt="logo" style={{ width: "100%", maxWidth: "220px", height: "auto" }} />
                         </Col>
-                        <Col>
-                        <div>
-                            <NavBar />
-                        </div>
+                        <Col md="6">
+                            <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+                                <NavBar />
+                            </div>
                         </Col>
                     </Row>
 
-                    <Row>
-                        <Col>
-                            <p className="pe-paragraph" style={{ textAlign: "center", color: "white", fontWeight: "bold", fontSize: "medium", verticalAlign: "bottom", paddingBottom: "0px", marginBottom: "0px" }}>
-                                Established 2010 | NJ License #16105 | <a style={{ color: "#ef5611", whiteSpace:"nowrap" }} href="tel:732-851-4822">(732) 851-4822 </a> | <a style={{ color: "#ef5611" }} href="mailto:promanelectric@gmail.com">promanelectric@gmail.com</a>
-                            </p>
-                        </Col>
-                    </Row>
                 </Container>
-                <hr className="pe-hr" />
+                <hr className="pe-hr" style={{ marginTop: "14px", marginBottom: "0" }} />
             </div>
         </>
     );
