@@ -10,7 +10,10 @@ import apartment_construction from '../../images/apartment_construction.jpg';
 import commercial_gas_station from '../../images/commercial_gas_station.jpg';
 import industrial from '../../images/industrial.jpg';
 import fireplace from '../../images/fireplace.jpeg';
-// import conduit from '../../images/conduit.jpg';
+import generac from '../../images/generac.jpg';
+import generator from '../../images/generator.jpeg';
+import meters from '../../images/meters.jpeg';
+import truss from '../../images/truss.jpeg';
 
 
 
@@ -27,10 +30,6 @@ const Portfolio = () => {
         thumbnail: electric_vehicle,
       },
       {
-        original: fireplace,
-        thumbnail: fireplace,
-      },
-      {
         original: high_voltage_panel,
         thumbnail: high_voltage_panel,
       },
@@ -39,13 +38,33 @@ const Portfolio = () => {
         thumbnail: apartment_construction,
       },
       {
+        original: fireplace,
+        thumbnail: fireplace,
+      },
+      {
+        original: generac,
+        thumbnail: generac,
+      },
+      {
+        original: generator,
+        thumbnail: generator,
+      },
+      {
+        original: meters,
+        thumbnail: meters,
+      },
+      {
+        original: truss,
+        thumbnail: truss,
+      },
+      {
         original: commercial_gas_station,
         thumbnail: commercial_gas_station,
       },
-      {
+       {
         original: industrial,
         thumbnail: industrial,
-      },
+      }
     ];
   return (
     <>
