@@ -30,11 +30,19 @@ const About = () => {
               </Col>
               <Col md="4" xs="12" style={{ marginBottom: "12px" }}>
                 <h4 style={{ color: "#ef5611", marginBottom: "8px" }}>Phone</h4>
-                <p style={{ margin: 0 }}>+1 (732) 851-4822</p>
+                <p style={{ margin: 0 }}>
+                  <a href="tel:+17328514822" style={{ color: "inherit", textDecoration: "underline" }}>
+                    +1 (732) 851-4822
+                  </a>
+                </p>
               </Col>
               <Col md="4" xs="12">
                 <h4 style={{ color: "#ef5611", marginBottom: "8px" }}>Email</h4>
-                <p style={{ margin: 0 }}>promanelectric@gmail.com</p>
+                <p style={{ margin: 0 }}>
+                  <a href="mailto:promanelectric@gmail.com" style={{ color: "inherit", textDecoration: "underline" }}>
+                    promanelectric@gmail.com
+                  </a>
+                </p>
               </Col>
             </Row>
           </div>
