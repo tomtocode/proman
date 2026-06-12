@@ -75,7 +75,7 @@ const Portfolio = ({ compact = false }) => {
         showNav={false}
         thumbnailPosition="bottom"
         renderItem={(item) => (
-          <div style={{ width: '100%', height: compact ? '280px' : '520px', overflow: 'hidden', borderRadius: '12px' }}>
+          <div style={{ width: '100%', height: compact ? '400px' : '680px', overflow: 'hidden', borderRadius: '12px' }}>
             <img
               src={item.original}
               alt="Proman Electric project"
