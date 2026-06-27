@@ -11,6 +11,7 @@ import generac from '../../images/generac.jpg';
 import generator from '../../images/generator.jpeg';
 import meters from '../../images/meters.jpeg';
 import truss from '../../images/truss.jpeg';
+import aerial_proman from '../../images/aerial_proman.png';
 
 
 
@@ -18,7 +19,11 @@ import truss from '../../images/truss.jpeg';
 const Portfolio = ({ compact = false }) => {
 
     const images = [
-      {
+            {
+        original: aerial_proman,
+        thumbnail: aerial_proman,
+      },
+{
         original: apartment,
         thumbnail: apartment,
       },
